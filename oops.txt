@@ -1,0 +1,28 @@
+//////   OOPS   ///////
+
+
+class is extension of c structure ( it is container for storing hetrogenous data )
+
+C STRUCTURE           |  C++ STRUCTURE
+variable/data         |  variable/data +functions
+by default variable   |  public/private/protected
+are public
+user-defined data type| user-defined data type
+
+
+
+C++ class             |  C++ STRUCTURE
+variable + functions  |  same 
+access objectifiers   |    
+are used (public pvt. | same 
+and protected)        |    
+                      | 
+by default variable   |   by default public  
+and functions are pvt |
+                      |
+can participate in inh|   can't 
+solve the complex     | long sol of small problems 
+problems       
+
+
+

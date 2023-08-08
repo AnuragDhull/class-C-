@@ -1,4 +1,3 @@
-//////   OOPS   ///////
 
 
 class is extension of c structure ( it is container for storing hetrogenous data )
@@ -25,4 +24,5 @@ solve the complex     | long sol of small problems
 problems       
 
 
+//////   OOPS   ///////
 

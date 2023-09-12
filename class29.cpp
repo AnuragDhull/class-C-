@@ -1,4 +1,4 @@
-// Example: defining the constructor within the class
+// Example: defining the constructor outside the class
  
 #include<iostream>
 using namespace std;
@@ -8,7 +8,12 @@ class student
     char name[50];
     double fee;
     public:
-    student()
+    student();
+    void display();
+     
+};
+ 
+    student::student()
     {
         cout<<"Enter the RollNo:";
         cin>>rno;
@@ -17,19 +22,15 @@ class student
         cout<<"Enter the Fee:";   
         cin>>fee;
     }   
-     
  
- 
-    void display()
+   void student::display()
     {
         cout<<endl<<rno<<"\t"<<name<<"\t"<<fee;
     }
-};
- 
+     
 int main()
 {
-    student s;  //constructor gets called automatically when we create the object of the class
+    student s;
     s.display();
     return 0;
- 
 }
